@@ -5,13 +5,6 @@ public class Products
     private int num;
     private String name;
 
-    @Override
-    public String toString() {
-        return
-                "{num=" + num +
-                ", name='" + name  +
-                "'}";
-    }
 
     Products(int num, String name) {
         this.name = name;

@@ -34,9 +34,9 @@ public class Returnclass {
 
     @RequestMapping("/products/{idno}")
     @ResponseBody
-    public String products1(@PathVariable String idno)
+    public String products1(@PathVariable("idno") String io)
     {
-        return idno;
+        return io;
     }
 
     }

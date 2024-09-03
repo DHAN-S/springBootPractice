@@ -9,7 +9,7 @@ public class Here {  static List<Products> p=new ArrayList<Products>();
 
   Products ck=new Products(1,"Mouse");
   Products k=new Products(2,"key");
-  Products c=new Products(3,"printer");
+  Products c=new Products(3,"printeer");
   p.add(ck);
   p.add(k);
   p.add(c);
@@ -17,6 +17,7 @@ public class Here {  static List<Products> p=new ArrayList<Products>();
   }
   public static Products getAll()
   {
+    System.out.println("hiii");
     return p.get(1);
   }
 }
