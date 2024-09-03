@@ -5,7 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
-
 public class SpringProjectApplication {
 	public static void main(String[] args) {
 	ConfigurableApplicationContext context= SpringApplication.run(SpringProjectApplication.class, args);
@@ -19,6 +18,8 @@ public class SpringProjectApplication {
 	 //scope default singleton so only once constructor work,if not we use prototype
 	 obj1.connect();
 	// obj2.connect();
+		Here h=new Here();
+		h.call();
 	}
 }
 //object graph :means relation between object(dependeccy)

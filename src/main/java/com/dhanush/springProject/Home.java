@@ -16,13 +16,11 @@ public class Home {
     private Network variable;
 
 //ithu construictor in jectikon
-
     Home(Network variable){
         this.variable=variable;
         System.out.println("inside home");
 
     }
-
     private String owner;
     private int doorNo;
     public int getDoorNo()
