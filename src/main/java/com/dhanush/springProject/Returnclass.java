@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
-@Controller
+
+@RequestMapping("/hi")
 public class Returnclass {
     @RequestMapping("/rack")
     public String call()
@@ -34,7 +35,7 @@ public class Returnclass {
 
     @RequestMapping("/products/{idno}")
     @ResponseBody
-    public String products1(@PathVariable("idno") String io)
+    public String products1(@PathVariable() String io)
     {
         return io;
     }
